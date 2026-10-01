@@ -1,0 +1,126 @@
+/* ==============================================================================
+   LeetCode-Inspired Theme System
+   DSA 45-Day Placement Preparation Dashboard
+   ============================================================================== */
+
+:root {
+  /* LeetCode Dark Charcoal Backgrounds */
+  --bg-primary: #1A1A1A;
+  --bg-secondary: #282828;
+  --bg-tertiary: #333333;
+  --bg-editor: #1E1E1E;
+  --bg-sidebar: #181818;
+
+  /* Cards */
+  --card-bg: #262626;
+  --card-hover: #2F2F2F;
+
+  /* Borders */
+  --border-primary: #3A3A3A;
+  --border-secondary: #444444;
+  --border-focus: #FFA116;
+
+  /* Typography */
+  --text-primary: #F5F5F5;
+  --text-secondary: #B3B3B3;
+  --text-muted: #777777;
+  --text-heading-secondary: #D4D4D4;
+
+  /* LeetCode Orange Brand Accent */
+  --accent-orange: #FFA116;
+  --accent-orange-hover: #FFB84D;
+  --accent-orange-dim: rgba(255, 161, 22, 0.10);
+  --accent-orange-border: rgba(255, 161, 22, 0.25);
+
+  /* Status Colors */
+  --success: #2CBB5D;
+  --success-hover: #32d66a;
+  --success-dim: rgba(44, 187, 93, 0.12);
+  --success-border: rgba(44, 187, 93, 0.25);
+
+  --warning: #FFA116;
+  --warning-dim: rgba(255, 161, 22, 0.12);
+  --warning-border: rgba(255, 161, 22, 0.25);
+
+  --danger: #EF4743;
+  --danger-hover: #f36360;
+  --danger-dim: rgba(239, 71, 67, 0.12);
+  --danger-border: rgba(239, 71, 67, 0.25);
+
+  /* LeetCode Difficulty System */
+  --easy: #2CBB5D;
+  --easy-bg: rgba(44, 187, 93, 0.10);
+  --easy-border: rgba(44, 187, 93, 0.22);
+
+  --medium: #FFA116;
+  --medium-bg: rgba(255, 161, 22, 0.10);
+  --medium-border: rgba(255, 161, 22, 0.22);
+
+  --hard: #EF4743;
+  --hard-bg: rgba(239, 71, 67, 0.10);
+  --hard-border: rgba(239, 71, 67, 0.22);
+
+  /* Neutral Topic Badges */
+  --topic-bg: #333333;
+  --topic-text: #D4D4D4;
+  --topic-border: #3A3A3A;
+
+  /* Pattern Tags */
+  --pattern-bg: #222222;
+  --pattern-text: #B3B3B3;
+  --pattern-border: #3A3A3A;
+
+  /* Aliases for Component Compatibility */
+  --bg-base: var(--bg-primary);
+  --bg-surface: var(--bg-secondary);
+  --bg-card: var(--card-bg);
+  --bg-card-hover: var(--card-hover);
+  --bg-elevated: var(--bg-secondary);
+  --bg-input: var(--bg-secondary);
+
+  --border-subtle: var(--border-primary);
+  --border-card: var(--border-primary);
+
+  --primary: var(--accent-orange);
+  --primary-light: var(--accent-orange-hover);
+  --primary-dark: #e68d09;
+  --primary-glow: var(--accent-orange-dim);
+  --primary-gradient: var(--accent-orange);
+
+  --diff-easy: var(--easy);
+  --diff-easy-bg: var(--easy-bg);
+  --diff-easy-border: var(--easy-border);
+
+  --diff-medium: var(--medium);
+  --diff-medium-bg: var(--medium-bg);
+  --diff-medium-border: var(--medium-border);
+
+  --diff-hard: var(--hard);
+  --diff-hard-bg: var(--hard-bg);
+  --diff-hard-border: var(--hard-border);
+
+  --status-not-started: var(--text-muted);
+  --status-not-started-bg: rgba(119, 119, 119, 0.10);
+  --status-attempted: var(--warning);
+  --status-attempted-bg: var(--warning-dim);
+  --status-solved: var(--success);
+  --status-solved-bg: var(--success-dim);
+  --status-review: var(--danger);
+  --status-review-bg: var(--danger-dim);
+
+  /* Fonts */
+  --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Inter', Roboto, sans-serif;
+  --font-heading: var(--font-sans);
+  --font-mono: 'JetBrains Mono', 'Fira Code', Menlo, Monaco, Consolas, monospace;
+
+  /* Radii - Clean LeetCode Subtle Corners */
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-xl: 10px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 120ms ease;
+  --transition-normal: 200ms ease;
+}
